@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "waterlog",
+	"version": "${version}",
+	"name": "Waterlog",
+	"description": "More waterlogging for multiple blocks.",
+	"authors": [
+		"Dcqout"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/waterlog",
+		"sources": "https://github.com/dcqout/waterlog"
+	},
+	"license": "MPL-2.0",
+	"icon": "assets/waterlog/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dcq.wlog.Waterlog"
+		]
+	},
+	"mixins": [
+		"waterlog.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
