@@ -6,3 +6,13 @@
 
 ModLoader templates: https://github.com/dcqout/waterlog/tree/build_templates
 <p>Check out the modrinth page <strong>https://modrinth.com/mod/waterlog</strong></p>
+
+## Building
+
+This branch targets Minecraft 26.1.2 on Fabric. Build it with Java 25:
+
+```sh
+./gradlew build
+```
+
+The mod jar is written to `build/libs/`.
