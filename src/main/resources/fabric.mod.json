@@ -18,6 +18,9 @@
 	"entrypoints": {
 		"main": [
 			"dcq.wlog.Waterlog"
+		],
+		"client": [
+			"dcq.wlog.WaterlogClient"
 		]
 	},
 	"mixins": [

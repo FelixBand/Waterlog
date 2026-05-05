@@ -46,6 +46,9 @@
 		"TripBlockM",
 		"TripHBlockM"
 	],
+	"client": [
+		"ClientCommonPacketListenerAccessor"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	},
